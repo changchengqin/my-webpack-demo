@@ -6,13 +6,13 @@
   "configurations": [{
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceRoot}/build/build.js"
+      "name": "Launch Build",
+      "program": "${workspaceRoot}\\build\\build.js"
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch Dev",
       "program": "${workspaceRoot}\\build\\dev-server.js"
     }
   ]
